@@ -10,3 +10,8 @@ $ docker build -t freelyit/nmap .
 ```
 $ docker run --rm freelyit/nmap <ip address>
 ```
+
+## Run for whole subnet
+```
+$ docker run --rm freelyit/nmap -sP <subnet as 192.168.10.0/24>
+```
